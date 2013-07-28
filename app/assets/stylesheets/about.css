@@ -1,0 +1,100 @@
+/* inner */
+.inner1
+{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom:0px;
+    margin-left: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: none;
+    width: 1000px;
+    height:1100px;
+}
+.youtube{
+    width:1000px;
+    height:620px;
+    margin-top:0px;
+    float: right;
+    background: none;
+}
+.aboutbox2{
+    width:1000px;
+    height:400px;
+    margin-top:670px;
+    background: none;
+    color: #000;
+    border-left:5px solid #A31E39;
+}
+h4{
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size:18px;
+    color: #A31E39;
+    width: 900px;
+    padding-left:50px;
+}
+h5{
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size:18px;
+    color: #485C5A;
+    width: 900px;
+    padding-left:50px;
+    padding-top:5px;
+}
+/* footer */
+.footer1
+{
+    margin-top:1110px;
+    margin-right: auto;
+    margin-bottom:0px;
+    margin-left: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: none;
+    width: 1000px;
+    height:70px;
+}
+p{
+    width: 600px;
+    height: 20px;
+    background: none;
+    float: left;
+    margin-top:40px;
+    font-size: 12px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight:normal;
+    color:  #999;
+}
+/* icon box */
+.iconbox{
+    width:260px;
+    height:50px;
+    padding-top: 10px;
+    float: right;
+    background: none;
+}
+.icons{
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+}
+.icon{
+    text-decoration: underline;
+    color: #ffffff;
+}
+a.icon:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}

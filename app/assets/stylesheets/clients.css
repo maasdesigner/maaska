@@ -1,0 +1,105 @@
+/* inner */
+.inner3
+{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom:0px;
+    margin-left: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: none;
+    width: 1000px;
+    height:1500px;
+}
+.clients{
+    width:1000px;
+    height:470px;
+    margin-top:70px;
+    background:url("bannerclients.png");
+}
+.aboutC{
+    width:1000px;
+    height:300px;
+    margin-top:30px;
+    float:right;
+    background: none;
+}
+.aboutT{
+    width:1000px;
+    height:500px;
+    margin-top:100px;
+    float:left;
+    background: none;
+}
+.text{
+    width:600px;
+    height: 450px;
+    padding-top:50px;
+    background: none;
+    float:text;
+    text-align: left;
+    font-size: 18px;
+}
+.clientAdress{
+    width:250px;
+    height:400px;
+    font-size: 16px;
+    padding-left:200px;
+    padding-top: 150px;
+    float:right;
+    text-align: left;
+    background: red;
+}
+/* footer */
+.footer3
+{
+    margin-top:1510px;
+    margin-right: auto;
+    margin-bottom:0px;
+    margin-left: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: none;
+    width: 1000px;
+    height:70px;
+}
+p{
+    width: 600px;
+    height: 20px;
+    background: none;
+    float: left;
+    margin-top:40px;
+    font-size: 12px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight:normal;
+    color:  #999;
+}
+/* icon box */
+.iconbox{
+    width:260px;
+    height:50px;
+    padding-top: 10px;
+    float: right;
+    background: none;
+}
+.icons{
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+}
+.icon{
+    text-decoration: underline;
+    color: #ffffff;
+}
+a.icon:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}

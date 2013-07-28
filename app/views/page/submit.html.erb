@@ -1,0 +1,128 @@
+<% provide(:title, 'Contact') %>
+
+<!--header-->
+<div class="head">
+
+  <%= image_tag "MAASLOGO.png", class: "logo" %>
+
+  <div class="menubox">
+
+
+    <ul class="menubox1">
+      <a href="home" class="navigator1"> Home</a>
+    </ul>
+
+
+    <ul class="menubox1">
+      <a href="about" class="navigator1"> About</a>
+
+      <li> &nbsp; </li>
+      <li class="navigator2">It's me</li>
+    </ul>
+
+    <ul class="menubox1">
+      <a href="works" class="navigator1"> Works</a>
+
+      <li> &nbsp; </li>
+      <li class="navigator2">Illustrator</li>
+      <li class="navigator2">Logos</li>
+      <li class="navigator2">Cards</li>
+      <li class="navigator2">Drawings</li>
+    </ul>
+
+
+    <ul class="menubox1">
+      <a href="clients" class="navigator1"> Clients</a>
+
+      <li> &nbsp; </li>
+      <li class="navigator2">Aykent Co.</li>
+      <li class="navigator2">Metro Hos.</li>
+      <li class="navigator2">AvantGardeIQ</li>
+      <li class="navigator2">and more...</li>
+    </ul>
+
+
+    <ul class="menubox1">
+      <a href="contact" class="navigator1"> Contact</a>
+    </ul>
+
+  </div>
+
+
+</div><!--End header-->
+
+
+<!--banner-->
+<div class="banner">
+
+  <!--inner-->
+  <div class="inner4">
+
+
+        <div class="contact"></div>
+
+
+    <div class="info">
+      <h2>Contact me</h2>
+
+      <ul>
+      <li>Adress:</li>
+      <li>www.malikaslan.com</li>
+      </ul>
+      <ul>
+        <li>E - mail:</li>
+        <li>maasgultekin@gmail.com</li>
+      </ul>
+    </div>
+
+
+
+    <!--contact form-->
+    <div class="mail">
+
+
+      <%= form_for @message, :url => contact_path do |form| %>
+          <fieldset class="fields">
+            <div class="field">
+              <%= form.label :name, class: "fonts" %>
+              <%= form.text_field :name, class: "fields_name" %>
+            </div>
+
+            <div class="field">
+              <%= form.label :email, class: "fonts"  %>
+              <%= form.text_field :email, class: "fields_name" %>
+            </div>
+            <div class="field">
+              <%= form.label :subject, class: "fonts"  %>
+              <%= form.text_field :subject, class: "fields_name" %>
+            </div>
+
+            <div class="field">
+              <%= form.label :body, class: "fonts"  %>
+              <%= form.text_area :body, class: "fields_body" %>
+            </div>
+          </fieldset>
+
+          <fieldset class="actions">
+            <%= form.submit "Send", class: "submit" %>
+          </fieldset>
+      <% end %>
+    </div>  <!--End contact form-->
+
+  </div><!--End inner-->
+</div>  <!--End banner-->
+
+
+<!--footer-->
+<div class="footer4">
+  <p>&#169; Copyright. All Rights Reserved. MaaS Designer. Last Update: 20.10.2012 </p>
+
+  <!--icon box-->
+  <div class="iconbox">
+    <a href="" class="icon"><%= image_tag "facebook.png", class: "icons" %> </a>
+    <a href="" class="icon"><%= image_tag "twitter.png", class: "icons"%> </a>
+    <a href="" class="icon"><%= image_tag "youtube.png", class: "icons"%>  </a>
+    <a href="" class="icon"><%= image_tag "github.png",class: "icons" %>  </a>
+    <a href="" class="icon"><%= image_tag "dribbble.png",class: "icons" %>  </a>
+  </div><!--End icon box-->
+</div><!--End footer-->

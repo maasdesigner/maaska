@@ -1,0 +1,170 @@
+body
+{
+    color: #666666;
+    font-family: 'FranklinGothicBook',Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.5625;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: #ffffff;
+    background-image:none;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-position: center bottom;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+}
+/* head */
+.head
+{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    min-height: 110px;
+    width:1000px;
+    height:200px;
+    background:none;
+    position: relative;
+}
+/* logo */
+.logo{
+    width: 250px;
+    height:198px;
+    background: none;
+    float: left;
+    margin-top:0px;
+}
+/* menu */
+.menubox{
+    width: 700px;
+    height:150px;
+    float: right;
+    background: url("menubg.png");
+    margin-top:50px;
+}
+.navigator1{
+    font-size: 12px;
+    font-family:Verdana, sans-serif;
+    font-weight:600;
+    color:  #A31E39;
+    text-decoration: none;
+}
+a.navigator1:hover{
+    color:  #485C5A;
+    text-decoration: none;
+}
+.navigator2{
+    font-size: 11px;
+    font-family:Verdana, sans-serif;
+    font-weight:normal;
+    color:  #485C5A;
+
+}
+.menubox1{
+    width:70px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    background: none;
+    text-align: left;
+}
+ul, li{
+    list-style: none;
+}
+/* banner */
+.banner
+{
+    position: absolute;
+    top:200px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+    height:620px;
+    background-color:#A31E39 ;
+    background-image:none;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-position: center top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+}
+/* inner */
+.inner
+{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom:0px;
+    margin-left: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background:url("banner.png");
+    width: 1000px;
+    height:620px;
+}
+
+/* footer */
+.footer
+{
+    margin-top:630px;
+    margin-right: auto;
+    margin-bottom:0px;
+    margin-left: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: none;
+    width: 1000px;
+    height:70px;
+}
+p{
+    width: 600px;
+    height: 20px;
+    background: none;
+    float: left;
+    margin-top:40px;
+    font-size: 12px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight:normal;
+    color:  #999;
+}
+/* icon box */
+.iconbox{
+    width:260px;
+    height:50px;
+    padding-top: 10px;
+    float: right;
+    background: none;
+}
+.icons{
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+}
+.icon{
+    text-decoration: underline;
+    color: #ffffff;
+}
+a.icon:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
