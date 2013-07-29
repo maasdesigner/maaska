@@ -18,7 +18,7 @@ module Budda
         :port                 => 587,
         :domain               => "gmail.com",
         :user_name            => "maasgultekin@gmail.com",
-        :password             => "rubyonrails",
+        :password             => "none",
         :authentication       => :plain,
         :enable_starttls_auto => true
     }
